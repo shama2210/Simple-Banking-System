@@ -44,5 +44,58 @@ This project demonstrates **OOP concepts**, database connectivity using **JDBC**
 
 ---
 
+## Project Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Akaaash04/banking-system.git
+   cd banking-system
+   ```
+
+2. Import the project into your **IDE** (Eclipse, IntelliJ, or VS Code with Java extension).
+
+3. Add **MySQL Connector JAR** to your project’s classpath:
+
+   * [Download MySQL Connector](https://dev.mysql.com/downloads/connector/j/)
+
+4. Update DB credentials in your code (usually in `DB.java`):
+
+   ```java
+   String url = "jdbc:mysql://localhost:3306/bank";
+   String user = "root";
+   String pass = "yourpassword";
+   ```
+
+5. Compile and run:
+
+   ```bash
+   javac -cp .:mysql-connector-java-8.0.33.jar *.java
+   java -cp .:mysql-connector-java-8.0.33.jar Main
+   ```
+
+   > On Windows, replace `:` with `;`
+
+---
+
+##  Project Structure
+
+```
+banking-system/
+├── DB.java          # Database connection
+├── BankOps.java     # All operations (deposit, withdraw, balance)
+├── MainApp.java     # Swing GUI
+├── users.sql        # Schema for users table
+├── README.md
+```
+
+---
+
+
+
+
+---
+
+
 
 
