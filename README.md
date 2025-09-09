@@ -49,7 +49,7 @@ This project demonstrates **OOP concepts**, database connectivity using **JDBC**
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Akaaash04/banking-system.git
+   git clone https://github.com/shama2210/Simple-Banking-System.git
    cd banking-system
    ```
 
